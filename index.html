@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Preguntas y Respuestas</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="titulo">Preguntas y Respuestas</h1>
+
+        <button id="iniciar-juego">Empezar Juego</button>
+
+        <div class="contenedor-juego">
+            <h2 id="enunciadoPregunta">
+                <!-- ¿Aquí va la pregunta -->
+            </h2>
+
+            <div id="contenedor-opciones">
+                <!--<button class="opciones">1</button> -->
+            </div>
+
+            <div class="contenedor-nivel-puntos">
+                <div class="contenedor-nivel">
+                    <p class="nivel-titulo">Nivel</p>
+                    <p id="nivel-numero"></p>
+                </div>
+
+                <div class="contenedor-puntos">
+                    <p class="puntaje-titulo">Tu puntaje</p>
+                    <p id="puntaje-numero"></p>
+                </div>
+            </div>
+
+            <!--
+          <div class="contenedor-finalizar">
+            <button class="boton-finalizar">Finalizar juego</button>
+          </div>
+          -->
+        </div>
+    </main>
+
+    <footer>
+        <p class="pie-pagina">
+            Desarrollado por: Luisa Fernanda Echeverry Román - 2022
+        </p>
+    </footer>
+
+    <!-- js scripts -->
+
+    <script src="/scripts/app.js" type="module"></script>
+    <script src="/scripts/iniciar-juego.js"></script>
+</body>
+
+</html>
